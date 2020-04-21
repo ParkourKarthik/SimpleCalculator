@@ -12,7 +12,6 @@ body {
 #numeric-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  /* padding: 10px; */
   flex-grow: 2;
 }
 
@@ -26,9 +25,7 @@ body {
 .numpad {
   background-color: #fff;
   text-align: center;
-  /* padding: 3rem 0; */
   font-size: 4rem;
-  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
   cursor: pointer;
   grid-row-gap: 1rem;
   border: none;
